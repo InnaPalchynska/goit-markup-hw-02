@@ -13,6 +13,9 @@ body {
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
   font-family: var(--primary-font-family);
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 h1 {
@@ -31,7 +34,6 @@ h2 {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
@@ -50,7 +52,6 @@ h2 {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
@@ -70,6 +71,10 @@ h2 {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.current.link {
   color: var(--accent-color);
 }
 
@@ -105,10 +110,7 @@ h2 {
 /* features */
 
 .features {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .features .description {
@@ -125,11 +127,9 @@ h2 {
 
 .team {
   background-color: var(--secondary-bg-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team.title {
@@ -145,14 +145,45 @@ h2 {
 }
 
 .footer .contacts {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
 address {
   font-style: inherit;
   color: var(--primary-bg-color);
+}
+
+.filter {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+
+  color: var(-title-text-color);
+
+  background-color: var(--secondary-bg-color);
+  border-radius: 4px;
+
+  border: none;
+}
+
+.filter:hover,
+.filter:focus {
+  color: var(--primary-bg-color);
+  background: var(--accent-color);
+}
+
+.portfolio.title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.portfolio.descriotion {
+  font-size: 16px;
+  line-height: 1.87;
 }
