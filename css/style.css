@@ -5,8 +5,8 @@
   --primary-bg-color: #ffffff;
   --secondary-bg-color: #f5f4fa;
   --accent-bg-color: #2f303a;
-  --primary-font-family: "Roboto", sans-serif;
-  --logo-font-family: "Raleway", sans-serif;
+  --primary-font-family: 'Roboto', sans-serif;
+  --logo-font-family: 'Raleway', sans-serif;
 }
 
 body {
@@ -113,10 +113,11 @@ h2 {
   line-height: 1.71;
 }
 
-.features .description {
-}
+/* .features .description {
+} */
 
 .features .title {
+  font-size: inherit;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
